@@ -22,7 +22,7 @@ Port_OHP='8087';
 
 #Installing ohp Server
 cd 
-wget -O /usr/local/bin/ohp "https://raw.githubusercontent.com/EvoTeamMalaysia/AutoScript/main/ohp"
+wget -O /usr/local/bin/ohp "https://raw.githubusercontent.com/EvoTeamMalaysia/AutoScriptVPS/main/ohp"
 chmod +x /usr/local/bin/ohp
 
 #Buat File OpenVPN TCP OHP

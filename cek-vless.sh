@@ -43,4 +43,3 @@ echo "other";
 echo "$oth";
 echo "-------------------------------"
 rm -rf /tmp/other.txt
-

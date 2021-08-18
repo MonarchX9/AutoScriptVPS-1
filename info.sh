@@ -2,4 +2,4 @@
 
 clear
 neofetch
-echo "Script By EvoTeamMalaysia"
+echo "Script By MonarchVPN"

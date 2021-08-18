@@ -20,7 +20,7 @@ success="\e[92m"
 echo -e "\n[${warning}Permission$based] > Masukan Password :"
 read -r -s Password
 case "$Password" in
-  evoteammalaysia )
+  monarchvpn )
     echo -e "\n[${success}SUCCESS$based] > Password benar"
     echo -e "[${warning}Output$based]  > Kamu diizinkan :)"
   ;;

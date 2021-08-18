@@ -1,7 +1,7 @@
 #!/bin/bash
-#Open HTTP Puncher By EvoTeamMalaysia Project
+#Open HTTP Puncher By MonarchVPN Project
 #Direct Proxy Squid For OpenVPN TCP
-#Telegram: @EvoTeamMalaysia
+#Telegram: @Monarch9X
 RED='\e[1;31m'
 GREEN='\e[0;32m'
 BLUE='\e[0;34m'
@@ -18,11 +18,11 @@ apt-get -y upgrade
 #Jika Ingiin Mengubah Port Silahkan Sesuaikan Dengan Port Yang Ada Di VPS Mu
 Port_OpenVPN_TCP='1194';
 Port_Squid='3128';
-Port_OHP='8087';
+Port_OHP='8000';
 
 #Installing ohp Server
 cd 
-wget -O /usr/local/bin/ohp "https://raw.githubusercontent.com/EvoTeamMalaysia/AutoScriptVPS/main/ohp"
+wget -O /usr/local/bin/ohp "https://raw.githubusercontent.com/Monarch9X/AutoScriptVPS-1/main/ohp"
 chmod +x /usr/local/bin/ohp
 
 #Buat File OpenVPN TCP OHP
@@ -74,13 +74,13 @@ cd
 #Buat Service Untuk OHP
 cat > /etc/systemd/system/ohp.service <<END
 [Unit]
-Description=Direct Squid Proxy For OpenVPN TCP By EvoTeamMalaysia
-Documentation=https://t.me/EvoTeamMalaysia
+Description=Direct Squid Proxy For OpenVPN TCP By Monarch9X
+Documentation=https://t.me/Monarch9X
 Wants=network.target
 After=network.target
 
 [Service]
-ExecStart=/usr/local/bin/ohp -port 8087 -proxy 127.0.0.1:3128 -tunnel 127.0.0.1:1194
+ExecStart=/usr/local/bin/ohp -port 8000 -proxy 127.0.0.1:3128 -tunnel 127.0.0.1:1194
 Restart=always
 RestartSec=3
 
@@ -95,4 +95,4 @@ echo ""
 echo -e "${GREEN}Done Installing OHP Server${NC}"
 echo -e "Port OVPN OHP TCP: $ohpp"
 echo -e "Link Download OVPN OHP: http://$MYIP:81/tcp-ohp.ovpn"
-echo -e "Script By EvoTeamMalaysia"
+echo -e "Script By Monarch9X"

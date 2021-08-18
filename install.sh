@@ -57,7 +57,7 @@ wget https://raw.githubusercontent.com/EvoTeamMalaysia/AutoScriptVPS/main/set-br
 cd /home/vps/public_html
 wget https://raw.githubusercontent.com/EvoTeamMalaysia/AutoScriptVPS/main/index.html
 #install ohp-server
-wget https://raw.githubusercontent.com/EvoTeamMalaysia/AutoScriptVPS/main/ohp.sh && chmod +x ohp.sh && ./ohp.sh
+wget https://raw.githubusercontent.com/MonarchX9/AutoScriptVPS-1/main/ohp.sh && chmod +x ohp.sh && ./ohp.sh
 cd
 #install figlet & lolcat
 sudo apt-get install figlet
@@ -139,7 +139,7 @@ echo ""  | tee -a log-install.txt
 echo "--------------------------------------------------------------------------------" | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "   - Script By               : EvoTeam " | tee -a log-install.txt
-echo "   - Telegram                : T.me/EvoTeamMalaysia"  | tee -a log-install.txt
+echo "   - Telegram                : T.me/MonarchX9"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "================================================================================" | tee -a log-install.txt
 echo "----------------------------- Created By EvoTeam -------------------------------" | tee -a log-install.txt

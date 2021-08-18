@@ -67,4 +67,3 @@ if [ -f "/etc/openvpn/server/openvpn-udp.log" ]; then
 fi
 echo "-------------------------------------"
 echo "";
-

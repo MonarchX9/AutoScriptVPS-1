@@ -28,8 +28,8 @@ chmod +x /usr/local/bin/ohp
 #Buat File OpenVPN TCP OHP
 cat > /etc/openvpn/tcp-ohp.ovpn <<END
 ############# WELCOME TO #############
-########## EvoTeamMalaysia VPN ############
-###### EvoTeamMalaysia OHP SERVER ########
+########## MonarchVPN RE VPN ############
+###### MonarchVPN RE OHP SERVER ########
 setenv CLIENT_CERT 0
 setenv opt block-outside-dns
 client

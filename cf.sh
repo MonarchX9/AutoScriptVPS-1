@@ -9,7 +9,7 @@ DOMAIN=kayyo.online
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c4)
 SUB_DOMAIN=${sub}.kayyo.online
 WILDCARD=*.${sub}.kayyo.online
-CF_ID=5faktadunia@gmail.com
+CF_ID=jenmyowon@gmail.com
 CF_KEY=b2185bbc8fc43ebbf4132daf1eee48a32b5d3
 set -euo pipefail
 IP=$(wget -qO- https://icanhazip.com);

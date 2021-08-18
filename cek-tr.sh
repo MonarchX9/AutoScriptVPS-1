@@ -26,3 +26,4 @@ echo "user : $akun";
 echo "$jum2";
 echo "-------------------------------"
 done
+

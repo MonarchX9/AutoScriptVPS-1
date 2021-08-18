@@ -44,7 +44,7 @@ Link Backup : $link
 ============================================
 Please enter the link above If you want to restore data
 
-© Copyright 2021 By EvoTeamMalaysia" | mail -s "Backup Data" $email
+© Copyright 2021 By MonarchVPN" | mail -s "Backup Data" $email
 rm -rf /root/backup
 rm -r /root/$IP-$date.zip
 echo ""

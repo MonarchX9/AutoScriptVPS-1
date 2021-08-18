@@ -22,7 +22,7 @@ Port_OHP='8000';
 
 #Installing ohp Server
 cd 
-wget -O /usr/local/bin/ohp "https://raw.githubusercontent.com/Monarch9X/AutoScriptVPS-1/main/ohp"
+wget -O /usr/local/bin/ohp "https://raw.githubusercontent.com/MonarchX9/AutoScriptVPS-1/main/ohp"
 chmod +x /usr/local/bin/ohp
 
 #Buat File OpenVPN TCP OHP
